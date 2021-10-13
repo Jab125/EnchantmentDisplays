@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jab125.enchantmentdisplays.client.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+
+  ],
+  "client": [
+    "EnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

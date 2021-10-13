@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantment-displays",
+  "version": "${version}",
+  "name": "Enchantment Displays",
+  "description": "",
+  "authors": [
+    "Jab125"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/enchantment_displays/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.jab125.enchantmentdisplays.client.EnchantmentDisplaysClient"
+    ],
+    "main": [
+      "com.jab125.enchantmentdisplays.EnchantmentDisplays"
+    ],
+    "modmenu": [
+      "com.jab125.enchantmentdisplays.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "enchantment-displays.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
